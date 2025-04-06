@@ -19,4 +19,43 @@
 
 .footer_seven {
   padding-top: 80px;
-}/*# sourceMappingURL=color.css.map */
+}
+.slide h1 {
+  color: #fff;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.slide ul {
+  list-style: none;
+  padding: 0;
+}
+
+.slide ul li {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 35px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  position: relative;
+  transition: background 0.3s ease;
+}
+
+.slide ul li::before {
+  content: '✓';
+  position: absolute;
+  left: 10px;
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.slide ul li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.style_page_thirteen .slide-item-content .slider_content ul li {
+  display: block;
+  padding-right: 30px;
+  width: 80%;
+  margin-left: 12%;
+}
