@@ -59,3 +59,14 @@
   width: 80%;
   margin-left: 12%;
 }
+.banner_carousel {
+  height: 450px !important;
+  overflow: hidden;
+}
+
+.banner_carousel .owl-stage-outer,
+.banner_carousel .owl-stage,
+.banner_carousel .owl-item,
+.banner_carousel .owl-item > div {
+  height: 450px !important;
+}
