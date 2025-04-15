@@ -42,13 +42,13 @@
   transition: background 0.3s ease;
 }
 
-.slide ul li::before {
+/* .slide ul li::before {
   content: '✓';
   position: absolute;
   left: 10px;
   color: #2ecc71;
   font-weight: bold;
-}
+} */
 
 .slide ul li:hover {
   background: rgba(255, 255, 255, 0.2);
@@ -60,7 +60,7 @@
   margin-left: 12%;
 }
 .banner_carousel {
-  height: 450px !important;
+  height: 500px !important;
   overflow: hidden;
 }
 
@@ -68,5 +68,5 @@
 .banner_carousel .owl-stage,
 .banner_carousel .owl-item,
 .banner_carousel .owl-item > div {
-  height: 450px !important;
+  height: 500px !important;
 }
