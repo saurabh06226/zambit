@@ -33,7 +33,7 @@
 
 .slide ul li {
   color: #fff;
-  background: rgba(255, 255, 255, 0.1);
+  background:rgba(40, 47, 59, 0.7);
   padding: 12px 35px;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -53,10 +53,22 @@
 .slide ul li:hover {
   background: rgba(255, 255, 255, 0.2);
 }
+.slide ul li::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 4px;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: var(--primary-color-one);
+}
+
 .style_page_thirteen .slide-item-content .slider_content ul li {
   display: block;
   padding-right: 30px;
-  width: 80%;
+  width: 70%;
   margin-left: 12%;
 }
 .banner_carousel {
